@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83c2bb15-d3f5-46a4-a83b-69d0cee3bce1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BankingKata/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BankingKata/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="83c2bb15-d3f5-46a4-a83b-69d0cee3bce1" name="Default Changelist" comment="r">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BankingKata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BankingKata/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BankingKata/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BankingKata/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingKataAPI.Test/ApiTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingKataAPI.Test/ApiTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingKataAPI.Test/Models/AccountTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingKataAPI.Test/Models/AccountTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingKataAPI.Test/Services/AccountsServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingKataAPI.Test/Services/AccountsServiceTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingKataAPI.Test/Services/CustomerServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingKataAPI.Test/Services/CustomerServiceTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankingKataAPI.Test/obj/Debug/netcoreapp2.0/BankingKataAPI.Test.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BankingKataAPI.Test/obj/Debug/netcoreapp2.0/BankingKataAPI.Test.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingKataAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingKataAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingKataAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BankingKataAPI/appsettings.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,16 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankingKataAPI/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,10 +36,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BankingKataAPI/BankingKataAPI.csproj">
+        <entry file="file://$PROJECT_DIR$/BankingKataAPI/Models/Money.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="11">
+              <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+              <folding>
+                <marker date="1558550686026" expanded="false" signature="6:64" ph="..." />
+                <marker date="1558550686026" expanded="true" signature="97:7942" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="182:7940" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="840:852" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="989:1237" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="1406:1427" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="1491:1712" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="2162:2289" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="2356:2484" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="2551:2679" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="2745:2872" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="2939:3095" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="3162:3318" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="3378:3435" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="3500:3588" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="3648:3736" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="3785:3864" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="3907:4003" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="4078:4247" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="4288:4474" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="4541:4885" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="4952:5016" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="5084:5273" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="5339:5395" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="5463:5637" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="5701:5757" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="5786:5860" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="5890:5956" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="5998:6283" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="6038:6094" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="6128:6229" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="6326:6545" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="6367:6424" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="6455:6511" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="6593:6680" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="6690:6796" ph="/* Foemmel’s Conundrum test from Martin Fowler’s ... */" />
+                <marker date="1558550686026" expanded="true" signature="6869:7550" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="7210:7510" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="7412:7495" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="7593:7670" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="7717:7802" ph="{...}" />
+                <marker date="1558550686026" expanded="true" signature="7845:7933" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,14 +91,105 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankingKataAPI.Test/Models/AccountTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="180">
+              <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
               <folding>
-                <marker date="1558550686023" expanded="false" signature="6:41" ph="..." />
-                <marker date="1558550686023" expanded="true" signature="79:576" ph="{...}" />
-                <marker date="1558550686023" expanded="true" signature="110:574" ph="{...}" />
-                <marker date="1558550686023" expanded="true" signature="180:321" ph="{...}" />
-                <marker date="1558550686023" expanded="true" signature="386:568" ph="{...}" />
+                <marker date="1558560410178" expanded="true" signature="6:69" ph="..." />
+                <marker date="1558560410178" expanded="true" signature="107:894" ph="{...}" />
+                <marker date="1558560410178" expanded="true" signature="138:892" ph="{...}" />
+                <marker date="1558560410178" expanded="true" signature="173:425" ph="{...}" />
+                <marker date="1558560410178" expanded="true" signature="498:639" ph="{...}" />
+                <marker date="1558560410178" expanded="true" signature="704:886" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankingKataAPI/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankingKataAPI/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="68" />
+              <folding>
+                <marker date="1558559565155" expanded="true" signature="6:358" ph="..." />
+                <marker date="1558559565155" expanded="true" signature="384:1517" ph="{...}" />
+                <marker date="1558559565155" expanded="true" signature="411:1515" ph="{...}" />
+                <marker date="1558559565155" expanded="true" signature="470:765" ph="{...}" />
+                <marker date="1558559565155" expanded="true" signature="988:1188" ph="{...}" />
+                <marker date="1558559565155" expanded="true" signature="1376:1509" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankingKataAPI.Test/ApiTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <marker date="1558559736764" expanded="false" signature="6:251" ph="..." />
+                <marker date="1558559736764" expanded="true" signature="282:1759" ph="{...}" />
+                <marker date="1558559736764" expanded="true" signature="323:1757" ph="{...}" />
+                <marker date="1558559736764" expanded="true" signature="400:502" ph="{...}" />
+                <marker date="1558559736764" expanded="true" signature="566:821" ph="{...}" />
+                <marker date="1558559736764" expanded="true" signature="852:904" ph="{...}" />
+                <marker date="1558559736764" expanded="true" signature="973:1407" ph="{...}" />
+                <marker date="1558559736764" expanded="true" signature="1471:1751" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankingKataAPI.Test/Services/AccountsServiceTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+              <folding>
+                <marker date="1558559736766" expanded="false" signature="6:153" ph="..." />
+                <marker date="1558559736766" expanded="true" signature="193:3531" ph="{...}" />
+                <marker date="1558559736766" expanded="true" signature="232:3529" ph="{...}" />
+                <marker date="1558559736766" expanded="true" signature="389:768" ph="{...}" />
+                <marker date="1558559736766" expanded="true" signature="852:1002" ph="{...}" />
+                <marker date="1558559736766" expanded="true" signature="1075:1351" ph="{...}" />
+                <marker date="1558559736766" expanded="true" signature="1425:1732" ph="{...}" />
+                <marker date="1558559736766" expanded="true" signature="1814:2058" ph="{...}" />
+                <marker date="1558559736766" expanded="true" signature="2127:2447" ph="{...}" />
+                <marker date="1558559736766" expanded="true" signature="2525:2784" ph="{...}" />
+                <marker date="1558559736766" expanded="true" signature="2862:3184" ph="{...}" />
+                <marker date="1558559736766" expanded="true" signature="3263:3523" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BankingKataAPI.Test/Services/CustomerServiceTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+              <folding>
+                <marker date="1558559736761" expanded="false" signature="6:231" ph="..." />
+                <marker date="1558559736761" expanded="true" signature="271:3035" ph="{...}" />
+                <marker date="1558559736761" expanded="true" signature="310:2850" ph="{...}" />
+                <marker date="1558559736761" expanded="true" signature="594:1162" ph="{...}" />
+                <marker date="1558559736761" expanded="true" signature="1230:1525" ph="{...}" />
+                <marker date="1558559736761" expanded="true" signature="1604:1867" ph="{...}" />
+                <marker date="1558559736761" expanded="true" signature="1963:2194" ph="{...}" />
+                <marker date="1558559736761" expanded="true" signature="2306:2706" ph="{...}" />
+                <marker date="1558559736761" expanded="true" signature="2823:2844" ph="{...}" />
+                <marker date="1558559736761" expanded="true" signature="2901:3033" ph="{...}" />
+                <marker date="1558559736761" expanded="true" signature="2976:3027" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -71,21 +201,38 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BankingKataAPI/Models/Money.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5486B0B5-95C6-4BBE-8EDA-415056DF068B/4b/da69cf22/Decimal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BankingKataAPI.Test/ApiTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BankingKataAPI/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BankingKataAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/724F386D-8F5B-4395-A7FA-46C7A3A38A2A/12/f7a475f3/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BankingKataAPI.Test/Models/AccountTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5486B0B5-95C6-4BBE-8EDA-415056DF068B/eb/247bb6af/CultureInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BankingKataAPI.Test/Services/AccountsServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BankingKataAPI.Test/Services/CustomerServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/BankingKataAPI/appsettings.json" />
+        <option value="$PROJECT_DIR$/BankingKataAPI/Startup.cs" />
+        <option value="$PROJECT_DIR$/BankingKataAPI.Test/Services/CustomerServiceTest.cs" />
+        <option value="$PROJECT_DIR$/BankingKataAPI.Test/ApiTest.cs" />
+        <option value="$PROJECT_DIR$/BankingKataAPI.Test/Services/AccountsServiceTest.cs" />
+        <option value="$PROJECT_DIR$/BankingKataAPI.Test/Models/AccountTest.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="107" />
-    <option name="y" value="53" />
-    <option name="width" value="1400" />
-    <option name="height" value="877" />
+    <option name="x" value="1796" />
+    <option name="y" value="83" />
+    <option name="width" value="1479" />
+    <option name="height" value="944" />
   </component>
   <component name="ProjectView">
     <navigator currentView="FileSystemExplorer" proportions="" version="1">
@@ -99,10 +246,33 @@
               <item name="" type="161ac34:FileSystemExplorerRootNode" />
               <item name="BankingKata" type="34e6ba20:FileSystemExplorerNode" />
             </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="BankingKata" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="BankingKataAPI" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="BankingKata" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="BankingKataAPI" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Models" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="BankingKata" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="BankingKataAPI.Test" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="BankingKata" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="BankingKataAPI.Test" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Services" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -110,18 +280,36 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="BankingKata" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BankingKata" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BankingKataAPI" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BankingKata" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BankingKataAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BankingKata" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BankingKataAPI.Test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -177,12 +365,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558551703959</updated>
-      <workItem from="1558551706424" duration="1349000" />
+      <workItem from="1558551706424" duration="2119000" />
+      <workItem from="1558553915014" duration="3551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1349000" />
+    <option name="totallyTimeSpent" value="5670000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -194,41 +383,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="107" y="53" width="1400" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="1796" y="83" width="1479" height="944" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23938762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" weight="0.3299363" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" visible="true" weight="0.3299363" />
-      <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Build" weight="0.3299363" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3299363" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info active="true" anchor="bottom" id="Unit Tests" order="12" visible="true" weight="0.48356807" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.3298122" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -237,10 +425,86 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BankingKataAPI.Test/Services/CustomerServiceTest.cs</url>
+          <line>39</line>
+          <properties documentPath="$PROJECT_DIR$/BankingKataAPI.Test/Services/CustomerServiceTest.cs" initialLine="39">
+            <startOffsets>
+              <option value="1253" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1307" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>this.CultureInfo</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CultureInfo</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankingKataAPI/BankingKataAPI.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankingKataAPI/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankingKataAPI/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankingKata.userprefs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5486B0B5-95C6-4BBE-8EDA-415056DF068B/eb/247bb6af/CultureInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="839" column="7" lean-forward="true" selection-start-line="839" selection-start-column="7" selection-end-line="839" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/724F386D-8F5B-4395-A7FA-46C7A3A38A2A/12/f7a475f3/TestInvoker`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="270" column="14" selection-start-line="270" selection-start-column="14" selection-end-line="270" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5486B0B5-95C6-4BBE-8EDA-415056DF068B/4b/da69cf22/Decimal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="171" column="6" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BankingKataAPI/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -254,37 +518,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankingKataAPI/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankingKataAPI/appsettings.Development.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankingKataAPI/BankingKataAPI.csproj">
+    <entry file="file://$PROJECT_DIR$/BankingKataAPI/Models/Money.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="11">
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+          <folding>
+            <marker date="1558550686026" expanded="false" signature="6:64" ph="..." />
+            <marker date="1558550686026" expanded="true" signature="97:7942" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="182:7940" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="840:852" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="989:1237" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="1406:1427" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="1491:1712" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="2162:2289" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="2356:2484" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="2551:2679" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="2745:2872" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="2939:3095" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="3162:3318" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="3378:3435" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="3500:3588" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="3648:3736" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="3785:3864" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="3907:4003" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="4078:4247" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="4288:4474" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="4541:4885" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="4952:5016" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="5084:5273" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="5339:5395" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="5463:5637" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="5701:5757" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="5786:5860" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="5890:5956" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="5998:6283" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="6038:6094" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="6128:6229" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="6326:6545" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="6367:6424" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="6455:6511" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="6593:6680" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="6690:6796" ph="/* Foemmel’s Conundrum test from Martin Fowler’s ... */" />
+            <marker date="1558550686026" expanded="true" signature="6869:7550" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="7210:7510" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="7412:7495" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="7593:7670" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="7717:7802" ph="{...}" />
+            <marker date="1558550686026" expanded="true" signature="7845:7933" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankingKataAPI/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankingKataAPI/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="68" />
+          <folding>
+            <marker date="1558559565155" expanded="true" signature="6:358" ph="..." />
+            <marker date="1558559565155" expanded="true" signature="384:1517" ph="{...}" />
+            <marker date="1558559565155" expanded="true" signature="411:1515" ph="{...}" />
+            <marker date="1558559565155" expanded="true" signature="470:765" ph="{...}" />
+            <marker date="1558559565155" expanded="true" signature="988:1188" ph="{...}" />
+            <marker date="1558559565155" expanded="true" signature="1376:1509" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankingKataAPI.Test/ApiTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <marker date="1558559736764" expanded="false" signature="6:251" ph="..." />
+            <marker date="1558559736764" expanded="true" signature="282:1759" ph="{...}" />
+            <marker date="1558559736764" expanded="true" signature="323:1757" ph="{...}" />
+            <marker date="1558559736764" expanded="true" signature="400:502" ph="{...}" />
+            <marker date="1558559736764" expanded="true" signature="566:821" ph="{...}" />
+            <marker date="1558559736764" expanded="true" signature="852:904" ph="{...}" />
+            <marker date="1558559736764" expanded="true" signature="973:1407" ph="{...}" />
+            <marker date="1558559736764" expanded="true" signature="1471:1751" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankingKataAPI.Test/Services/AccountsServiceTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+          <folding>
+            <marker date="1558559736766" expanded="false" signature="6:153" ph="..." />
+            <marker date="1558559736766" expanded="true" signature="193:3531" ph="{...}" />
+            <marker date="1558559736766" expanded="true" signature="232:3529" ph="{...}" />
+            <marker date="1558559736766" expanded="true" signature="389:768" ph="{...}" />
+            <marker date="1558559736766" expanded="true" signature="852:1002" ph="{...}" />
+            <marker date="1558559736766" expanded="true" signature="1075:1351" ph="{...}" />
+            <marker date="1558559736766" expanded="true" signature="1425:1732" ph="{...}" />
+            <marker date="1558559736766" expanded="true" signature="1814:2058" ph="{...}" />
+            <marker date="1558559736766" expanded="true" signature="2127:2447" ph="{...}" />
+            <marker date="1558559736766" expanded="true" signature="2525:2784" ph="{...}" />
+            <marker date="1558559736766" expanded="true" signature="2862:3184" ph="{...}" />
+            <marker date="1558559736766" expanded="true" signature="3263:3523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BankingKataAPI.Test/Models/AccountTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="180">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
           <folding>
-            <marker date="1558550686023" expanded="false" signature="6:41" ph="..." />
-            <marker date="1558550686023" expanded="true" signature="79:576" ph="{...}" />
-            <marker date="1558550686023" expanded="true" signature="110:574" ph="{...}" />
-            <marker date="1558550686023" expanded="true" signature="180:321" ph="{...}" />
-            <marker date="1558550686023" expanded="true" signature="386:568" ph="{...}" />
+            <marker date="1558560410178" expanded="true" signature="6:69" ph="..." />
+            <marker date="1558560410178" expanded="true" signature="107:894" ph="{...}" />
+            <marker date="1558560410178" expanded="true" signature="138:892" ph="{...}" />
+            <marker date="1558560410178" expanded="true" signature="173:425" ph="{...}" />
+            <marker date="1558560410178" expanded="true" signature="498:639" ph="{...}" />
+            <marker date="1558560410178" expanded="true" signature="704:886" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/BankingKataAPI.Test/Services/CustomerServiceTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="137">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <marker date="1558559736761" expanded="false" signature="6:231" ph="..." />
+            <marker date="1558559736761" expanded="true" signature="271:3035" ph="{...}" />
+            <marker date="1558559736761" expanded="true" signature="310:2850" ph="{...}" />
+            <marker date="1558559736761" expanded="true" signature="594:1162" ph="{...}" />
+            <marker date="1558559736761" expanded="true" signature="1230:1525" ph="{...}" />
+            <marker date="1558559736761" expanded="true" signature="1604:1867" ph="{...}" />
+            <marker date="1558559736761" expanded="true" signature="1963:2194" ph="{...}" />
+            <marker date="1558559736761" expanded="true" signature="2306:2706" ph="{...}" />
+            <marker date="1558559736761" expanded="true" signature="2823:2844" ph="{...}" />
+            <marker date="1558559736761" expanded="true" signature="2901:3033" ph="{...}" />
+            <marker date="1558559736761" expanded="true" signature="2976:3027" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 using BankingKataAPI.Models;
 using BankingKataAPI.Persistence;
@@ -27,6 +28,10 @@ namespace BankingKataAPI.Test.Services
 
             _emailService = new MockEmailService();
             _service = new CustomerService(_repository, _emailService);
+            
+            var cultureInfo = new CultureInfo("en-US") {NumberFormat = {CurrencySymbol = "$"}};
+            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
         }
 
         [Fact]

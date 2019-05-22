@@ -1,10 +1,18 @@
-﻿using BankingKataAPI.Models;
+﻿using System.Globalization;
+using BankingKataAPI.Models;
 using Xunit;
 
 namespace BankingKataAPI.Test.Models
 {
     public class AccountTest
     {
+        public AccountTest()
+        {
+            var cultureInfo = new CultureInfo("en-US") {NumberFormat = {CurrencySymbol = "$"}};
+            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
+        }
+        
         [Fact]
         public void CanSpecifyAStartingBalance()
         {
