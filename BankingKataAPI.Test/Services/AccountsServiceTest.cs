@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using BankingKataAPI.Models;
 using BankingKataAPI.Services;
 using BankingKataAPI.Test.Persistence;
@@ -15,6 +16,10 @@ namespace BankingKataAPI.Test.Services
         {
             _repository = new FakeRepository<Account>();
             _service = new AccountsService(_repository);
+            
+            var cultureInfo = new CultureInfo("en-US") {NumberFormat = {CurrencySymbol = "$"}};
+            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
         }
 
         [Fact]

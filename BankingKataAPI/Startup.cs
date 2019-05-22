@@ -1,8 +1,11 @@
-﻿using BankingKataAPI.Models;
+﻿using System.Collections.Generic;
+using System.Globalization;
+using BankingKataAPI.Models;
 using BankingKataAPI.Persistence;
 using BankingKataAPI.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -13,6 +16,9 @@ namespace BankingKataAPI
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            var cultureInfo = new CultureInfo("en-US"){NumberFormat =  {CurrencySymbol = "$"}};
+            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
         }
 
         public IConfiguration Configuration { get; }

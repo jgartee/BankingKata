@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,7 +25,7 @@ namespace BankingKataAPI.Test
         {
             var money = new[] {new Money(12m), new Money(13m)};
             var accounts = await CreateAccounts(money);
-           
+
             var account = await GetAccount(accounts[0].Id);
             Assert.Equal(accounts[0].Id, account.Id);
         }
@@ -50,6 +51,6 @@ namespace BankingKataAPI.Test
             var response = await client.GetAsync($"api/accounts/{accountId}");
             var json = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<Account>(json);
-        } 
+        }
     }
 }
